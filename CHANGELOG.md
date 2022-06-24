@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/lvjiaxuan/test-demo/compare/v1.0.0...v1.1.0) (2022-06-24)
+
+
+### Features
+
+* update ci.yml ([bd09552](https://github.com/lvjiaxuan/test-demo/commit/bd09552ace764b5392ed76afbe318568c1cf882f))
+
 ## 1.0.0 (2022-06-24)
 
 
