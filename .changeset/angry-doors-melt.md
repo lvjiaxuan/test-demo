@@ -1,5 +1,0 @@
----
-"test-demo": minor
----
-
-xxx
