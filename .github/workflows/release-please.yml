@@ -11,7 +11,17 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      # - uses: google-github-actions/release-please-action@v3
+      #   with:
+      #     release-type: node
+      #     package-name: release-please-action
+
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
         with:
-          release-type: node
-          package-name: release-please-action
+          node-version: 16
+
+      - uses: changesets/action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
