@@ -1,5 +1,0 @@
----
-"test-demo": major
----
-
-yyy

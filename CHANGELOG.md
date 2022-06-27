@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.0.0
+
+### Major Changes
+
+- d15c447: yyy
+
+### Minor Changes
+
+- d15c447: xxx
+- d15c447: wowo
+
 ## 1.1.1
 
 ### Patch Changes
