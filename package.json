@@ -3,6 +3,13 @@
   "version": "2.0.0",
   "private": false,
   "devDependencies": {
-    "@changesets/cli": "^2.23.0"
+    "@changesets/cli": "^2.23.0",
+    "@lvjiaxuan/eslint-config": "^0.0.3",
+    "eslint": "^8.18.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@lvjiaxuan"
+    ]
   }
 }
