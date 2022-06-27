@@ -7,6 +7,8 @@ on:
 
 name: release-please
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
