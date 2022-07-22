@@ -7,7 +7,7 @@ on:
 
 name: release-please
 
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+# concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   release-please:
@@ -17,15 +17,3 @@ jobs:
         with:
           release-type: node
           package-name: release-please-action
-
-      # - uses: actions/checkout@v3
-
-      # - uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 16
-
-      # - run: npm i
-
-      # - uses: changesets/action@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
