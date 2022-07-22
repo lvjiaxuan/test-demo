@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/lvjiaxuan/test-demo/compare/v2.1.0...v2.2.0) (2022-07-22)
+
+
+### Features
+
+* more ([eb3348b](https://github.com/lvjiaxuan/test-demo/commit/eb3348b93beaa534e15716b4338672198102f480))
+
 ## [2.1.0](https://github.com/lvjiaxuan/test-demo/compare/v2.0.1...v2.1.0) (2022-06-27)
 
 
